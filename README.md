@@ -25,6 +25,7 @@ This commands includes
 <BR>
 • Other IP Commands e.g. show ip route etc.
 <BR>
+
 ## Program
 ```
 server.py
@@ -72,7 +73,7 @@ while True:
     print(s.recv(4096).decode('utf-8'))
 
 s.close()
-
+```
 
 ## Output
 ![output](out1.png)
