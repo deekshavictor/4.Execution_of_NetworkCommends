@@ -26,8 +26,9 @@ This commands includes
 • Other IP Commands e.g. show ip route etc.
 <BR>
 ## Program
-server.py
 ```
+server.py
+
 import socket
 from pythonping import ping
 
@@ -53,9 +54,9 @@ while True:
         c.send(f"Ping failed: {e}".encode('utf-8'))
 
 c.close()
-```
+
 client.py
-```
+
 import socket
 
 s = socket.socket()
@@ -74,6 +75,18 @@ s.close()
 ```
 
 ## Output
+![output](out1.png)
+![output](out2.png)
+traceroute
+![output](out3.png)
+ipconfig
+![output](out4.png)
+nslookup
+![output](out5.png)
+netstat
+![output](out6.png)
+tcdump
+![output](out7.png)
 
 ## Result
 Thus Execution of Network commands Performed 
